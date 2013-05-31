@@ -15,8 +15,8 @@ public class team03
   public boolean connect()
   {
   	boolean connect = true;
-    username = "crb68"; //This is your username in oracle
-    password = "3653619"; //This is your password in oracle
+    username = ""; //This is your username in oracle
+    password = ""; //This is your password in oracle
     try{
      
       DriverManager.registerDriver (new oracle.jdbc.driver.OracleDriver());
